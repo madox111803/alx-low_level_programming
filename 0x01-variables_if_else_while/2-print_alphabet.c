@@ -10,9 +10,9 @@ int main(void)
 	char harf;
 
 	for (harf = 'a'; harf <= 'z'; harf++)
-
-		putchar (harf);
-
-	putchar('\n')
+	{
+		putchar(harf);
+	}
+	putchar('\n');
 return (0);
 }
