@@ -1,11 +1,22 @@
 #include <stdio.h>
 /**
- * ABC
+ * main - Entry point
+ * Description: prints the alphabet in lowercase\n
+ * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
-	int ch;
-	for (ch = 'a' ; ch < 'z' ; ch++)
-		putchar(ch\n);
-	return (0);
+	char harf;
+
+	for (harf = 'a'; harf <= 'z'; harf++)
+	{
+		putchar(harf);
+	}
+	for (harf = 'z'; harf >= 'a'; harf++)
+	{
+		putchar(harf);
+	}
+	putchar('\n');
+return (0);
 }
+
