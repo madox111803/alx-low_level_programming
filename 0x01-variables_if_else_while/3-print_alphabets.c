@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(harf);
 	}
-	for (harf = 'z'; harf >= 'a'; harf++)
+	for (harf = 'A'; harf <= 'Z'; harf++)
 	{
 		putchar(harf);
 	}
