@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char harf;
+	int harf;
 
 	for (harf = 'z'; harf >= 'a'; harf++)
 	{
