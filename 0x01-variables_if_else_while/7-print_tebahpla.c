@@ -9,7 +9,7 @@ int main(void)
 {
 	int harf;
 
-	for (harf = 'z'; harf >= 'a'; harf++)
+	for (harf = 'z'; harf >= 'a'; harf--)
 	{
 	putchar(harf);
 	}
