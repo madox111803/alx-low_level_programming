@@ -1,9 +1,18 @@
-#include <stdio.h>
-/***
- * main - entry point
- * Description: Write a program followed by a new line.
- * Return: 0
-/
+#include "main.h"
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	printf 
+int a;
+char ch[] = "_putchar";
+for (a = 0; a < 8; a++)
+{
+_putchar (ch[a]);
+}
+_putchar ('\n');
+return (0);
+}
