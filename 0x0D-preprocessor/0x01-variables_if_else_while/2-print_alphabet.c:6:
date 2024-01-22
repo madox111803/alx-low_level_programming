@@ -1,0 +1,15 @@
+
+ilphabet.c:8: ERROR: code indent should use tabs where possible
+2-print_alphabet.c:8: WARNING: please, no spaces at the start of a line
+2-print_alphabet.c:9: ERROR: code indent should use tabs where possible
+2-print_alphabet.c:9: WARNING: Missing a blank line after declarations
+2-print_alphabet.c:9: WARNING: please, no spaces at the start of a line
+2-print_alphabet.c:10: ERROR: code indent should use tabs where possible
+2-print_alphabet.c:10: WARNING: please, no spaces at the start of a line
+2-print_alphabet.c:11: ERROR: code indent should use tabs where possible
+2-print_alphabet.c:11: WARNING: please, no spaces at the start of a line
+total: 4 errors, 6 warnings, 12 lines checked
+2-print_alphabet.c:4: warning: missing initial short description
+2-print_alphabet.c:6: warning: no description found for function main
+2-print_alphabet.c:6: warning: No description found for return value of 'main'
+maininclude <stdio.h>
