@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 *main - Prints all single digits with , and space followed by new line
 *
@@ -9,7 +10,7 @@ int main() {
     
 	for (i = 0; i < 10; i++){
 		putchar(i + '0');
-		if (i<=9) {
+		if (i < 9) {
 			putchar(',');
 			putchar(' ');
 		}
